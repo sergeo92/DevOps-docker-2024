@@ -1,0 +1,15 @@
+Script started on 2024-05-27 13:02:07+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="169" LINES="37"]
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ exitsudo docker run -p 127.0.0.1:8080:8080 web-server
+[?2004l[sudo] Mot de passe de iskander : ************            
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+^C[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-27 13:02:40+00:00 [COMMAND_EXIT_CODE="2"]
