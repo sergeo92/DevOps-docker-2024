@@ -1,0 +1,46 @@
+Script started on 2024-05-27 10:34:36+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="169" LINES="37"]
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part1[00m$ sudo docker ps[K[Kimages
+[?2004l[sudo] Mot de passe de iskander : ************            
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago   15.7MB
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part1[00m$ sudo docker imagesvim answers-exercise1_4.txt [Kls[Kexitsudo docker exec -it server bashrun -d --name server devopsdockeruh/simple-web-service:ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo docker image ls[3Pps -aexit[Ksudo docker ps -aexit[Ksudo docker ps -aexit[K:wexit[1Pclear:wexit[2Pexitsudo docker ps -aexit[Ksudo docker ps -aexit[Ksudo docker ps -aimage lsexit[Ksudo docker run -d --name server devopsdockeruh/simple-web-service:ubuntu[K[K[K[K[K[Kalpine
+[?2004l61298e235a4612486a6d2cc2db23bb98df68195072a2512bb333854248b00c46
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part1[00m$ sudo docker run -d --name server devopsdockeruh/simple-web-service:alpineimages[Kvim answers-exercise1_4.txt [Kls[Kexitsudo docker exec -it server bashrun -d --name server devopsdockeruh/simple-web-service:ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo docker image ls[3Pps -aexit[Ksudo docker ps -aexit[Ksudo docker ps -aexit[Ksudo docker ps -a[K[Kexec --name [K[K[K[K[K[K[Kserver sh -c 'cat ./text.log'
+[?2004l2024-05-27 10:35:55 +0000 UTC
+2024-05-27 10:35:57 +0000 UTC
+2024-05-27 10:35:59 +0000 UTC
+2024-05-27 10:36:01 +0000 UTC
+2024-05-27 10:36:03 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-27 10:36:05 +0000 UTC
+2024-05-27 10:36:07 +0000 UTC
+2024-05-27 10:36:09 +0000 UTC
+2024-05-27 10:36:11 +0000 UTC
+2024-05-27 10:36:13 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-27 10:36:15 +0000 UTC
+2024-05-27 10:36:17 +0000 UTC
+2024-05-27 10:36:19 +0000 UTC
+2024-05-27 10:36:21 +0000 UTC
+2024-05-27 10:36:23 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-27 10:36:25 +0000 UTC
+2024-05-27 10:36:27 +0000 UTC
+2024-05-27 10:36:29 +0000 UTC
+2024-05-27 10:36:31 +0000 UTC
+2024-05-27 10:36:33 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-27 10:36:35 +0000 UTC
+2024-05-27 10:36:37 +0000 UTC
+2024-05-27 10:36:39 +0000 UTC
+2024-05-27 10:36:41 +0000 UTC
+2024-05-27 10:36:43 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-27 10:36:45 +0000 UTC
+2024-05-27 10:36:47 +0000 UTC
+2024-05-27 10:36:49 +0000 UTC
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part1[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-27 10:37:00+00:00 [COMMAND_EXIT_CODE="0"]
