@@ -1,0 +1,10 @@
+Script started on 2024-05-27 09:40:33+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="169" LINES="39"]
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ exitsudo docker ps -a
+[?2004l[sudo] Mot de passe de iskander : ************            
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ sudo docker ps -a[K[K[K[K[Kimages[K ls
+[?2004lREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-27 09:41:14+00:00 [COMMAND_EXIT_CODE="0"]
