@@ -1,0 +1,11 @@
+Script started on 2024-05-27 09:36:27+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="169" LINES="39"]
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ sudo docker ps -a
+[?2004l[sudo] Mot de passe de iskander : ************            
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES
+af2c5c8c11ca   nginx     "/docker-entrypoint.…"   8 minutes ago   Up 8 minutes               80/tcp    lucid_lamarr
+fa4849960a04   nginx     "/docker-entrypoint.…"   8 minutes ago   Exited (0) 7 minutes ago             vibrant_leakey
+07f2b3a538b6   nginx     "/docker-entrypoint.…"   9 minutes ago   Exited (0) 7 minutes ago             practical_tharp
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-27 09:36:50+00:00 [COMMAND_EXIT_CODE="0"]
