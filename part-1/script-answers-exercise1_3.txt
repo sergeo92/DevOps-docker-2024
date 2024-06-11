@@ -1,0 +1,33 @@
+Script started on 2024-05-27 10:00:20+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="169" LINES="37"]
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ exitsudo docker image ls[3Pps -aexit[Ksudo docker ps -aexit[Ksudo docker ps -aexit[K:wexit[1Pclearat sript-answers-exercise1_3.txt [4@tail -f[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K[3Plsgit logcommit -m "EXERCISE 1.4: MISSING DEPENDENCIES"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo docker run -d --name server [7mdevopsdockeruh/simple-web-service:ubuntu[27mdevopsdockeruh/simple-web-service:ubuntu
+[?2004l[sudo] Mot de passe de iskander : ************            
+752d7754797fae89133094315c0bb3da949da0a1d4b7028db0b74e783c9f0f54
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ sudo docker run -d --name server devopsdockeruh/simple-web-service:ubuntu[K[K[K[K[K[K[K[K[Kexec -it server bash
+[?2004l]0;root@752d7754797f: /usr/src/approot@752d7754797f:/usr/src/app# ls
+[0m[01;32mserver[0m  text.log
+]0;root@752d7754797f: /usr/src/approot@752d7754797f:/usr/src/app# cat text.log 
+2024-05-27 10:01:17 +0000 UTC
+2024-05-27 10:01:19 +0000 UTC
+2024-05-27 10:01:21 +0000 UTC
+2024-05-27 10:01:23 +0000 UTC
+2024-05-27 10:01:25 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-27 10:01:27 +0000 UTC
+2024-05-27 10:01:29 +0000 UTC
+2024-05-27 10:01:31 +0000 UTC
+2024-05-27 10:01:33 +0000 UTC
+2024-05-27 10:01:35 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-27 10:01:37 +0000 UTC
+2024-05-27 10:01:39 +0000 UTC
+2024-05-27 10:01:41 +0000 UTC
+2024-05-27 10:01:43 +0000 UTC
+2024-05-27 10:01:45 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-27 10:01:47 +0000 UTC
+]0;root@752d7754797f: /usr/src/approot@752d7754797f:/usr/src/app# exit
+exit
+[?2004h]0;iskander@iskander-HP-Laptop-15-da0xxx: ~/Bureau/Docker/part-1[01;32miskander@iskander-HP-Laptop-15-da0xxx[00m:[01;34m~/Bureau/Docker/part-1[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-27 10:02:00+00:00 [COMMAND_EXIT_CODE="0"]
