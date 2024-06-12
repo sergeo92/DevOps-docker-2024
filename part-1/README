@@ -1,0 +1,16 @@
+**Description**
+
+This code sets up a simple HTTP server using Deno,
+a secure and modern JavaScript and TypeScript runtime platform. 
+When a request is sent to the server (for example, by accessing http://localhost:7777), 
+the server will respond with a message 'Welcome docker!'.
+
+**Run app**
+`docker run -p 127.0.0.1:7777:7777 iskander92/web-server`
+
+
+**link to access app**
+`https://hub.docker.com/repository/docker/iskander92/web-server/general`
+
+**image***
+`docker pull iskander92/web-server`
